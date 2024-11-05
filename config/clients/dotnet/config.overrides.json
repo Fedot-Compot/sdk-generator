@@ -35,6 +35,10 @@
   "hashCodeMultiplierPrimeNumber": 9923,
   "supportsOpenTelemetry": true,
   "files": {
+    ".github/workflows/main.yaml.mustache": {
+      "destinationFilename": ".github/workflows/main.yaml",
+      "templateType": "SupportingFiles"
+    },
     "Client_OAuth2Client.mustache": {
       "destinationFilename": "src/OpenFga.Sdk/ApiClient/OAuth2Client.cs",
       "templateType": "SupportingFiles"
